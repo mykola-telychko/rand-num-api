@@ -3,6 +3,7 @@ const app = express();
 const port = 3000; // You can change this to your preferred port
 
 // http://localhost:3000/random-numbers?count=20&min=50&max=200
+// npm init -y / npm install express /
 
 // Generate a random number between min and max (inclusive)
 function getRandomNumber(min, max) {
